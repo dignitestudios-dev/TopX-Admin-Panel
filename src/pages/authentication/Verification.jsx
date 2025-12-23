@@ -103,12 +103,12 @@ const Verification = () => {
           </div>
 
           {/* Resend */}
-          <p className="text-gray-600 mt-6 text-sm">
+          {/* <p className="text-gray-600 mt-6 text-sm">
             Didn't receive the code?{" "}
             <button className="text-[#DE4B12] font-medium hover:underline">
               Resend
             </button>
-          </p>
+          </p> */}
 
           {/* VERIFY BUTTON */}
           <button

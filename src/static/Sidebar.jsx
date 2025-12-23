@@ -41,11 +41,11 @@ export const sidebarData = [
   //   icon: <MessageSquareWarning />,  // Warning icon works well for reports
   //   link: "/app/reports",
   // },
-  {
-    title: "Push Notifications",
-    icon: <Bell />,  // Bell is perfect for notifications
-    link: "/app/notifications",
-  },
+  // {
+  //   title: "Push Notifications",
+  //   icon: <Bell />,  // Bell is perfect for notifications
+  //   link: "/app/notifications",
+  // },
  
   {
     title: "Rewards ",
