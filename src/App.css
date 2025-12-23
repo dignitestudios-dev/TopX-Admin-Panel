@@ -1,0 +1,48 @@
+
+
+.gradient-color {
+    background: linear-gradient(#29ABE229,#0015FF00 );
+}
+ /* Optional: In your global CSS */
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+} */
+
+.button-bg {
+background: linear-gradient(90deg,rgba(179, 124, 38, 1) 0%, rgba(218, 180, 98, 1) 50%);
+}
+
+.background-gradient {
+  background: linear-gradient(90deg, rgba(41, 39, 52, 1) 0%, rgba(0, 0, 0, 1) 50%);
+}
+
+
+.background-gradients {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(41, 39, 52, 1) 150%);
+}
+
+
+
+
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffff; /* Dark track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E56F41; /* Accent color */
+  border-radius: 10px;
+  border: 2px solid #ffff; /* Padding around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #E56F41; /* Lighter on hover */
+}
