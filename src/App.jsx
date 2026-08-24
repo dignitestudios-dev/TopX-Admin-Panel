@@ -26,6 +26,7 @@ import Pages from "./pages/app/Pages";
 import Categories from "./pages/app/Categories";
 import RedemptionRequests from "./pages/app/RedemtionRequests";
 import ExpertRequests from "./pages/app/ExpertRequests";
+import Emojis from "./pages/app/Emojis";
 
 function App() {
   return (
@@ -59,11 +60,9 @@ function App() {
         <Route path="rewards" element={<Rewards />} />
         <Route path="pages" element={<Pages />} />
         <Route path="categories" element={<Categories />} />
+        <Route path="emojis" element={<Emojis />} />
         <Route path="redemption-requests" element={<RedemptionRequests />} />
         <Route path="expert-requests" element={<ExpertRequests />} />
-
-
-
       </Route>
 
       <Route path="/" element={<Navigate to="/auth/login" />} />

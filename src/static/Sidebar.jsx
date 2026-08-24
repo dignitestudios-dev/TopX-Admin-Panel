@@ -11,6 +11,7 @@ import { Gift } from 'lucide-react';
 import { BookOpen } from 'lucide-react';
 import { Layers2 } from 'lucide-react';
 import { BellPlus } from 'lucide-react';
+import { Smile } from 'lucide-react';
 
 
 
@@ -56,6 +57,12 @@ export const sidebarData = [
     title: "Categories ",
     icon: <Layers2 />,  // Gift icon fits rewards
     link: "/app/categories",
+  },
+
+  {
+    title: "Emojis",
+    icon: <Smile />,
+    link: "/app/emojis",
   },
 
   {
