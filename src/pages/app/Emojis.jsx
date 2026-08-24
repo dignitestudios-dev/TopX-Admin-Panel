@@ -238,9 +238,7 @@ const Emojis = () => {
                   </span>
                 )}
               </h1>
-              <p className="text-gray-500 text-sm mt-0.5">
-                Upload, manage, and delete custom platform emojis
-              </p>
+
             </div>
           </div>
         </div>
@@ -338,7 +336,7 @@ const Emojis = () => {
                     <p className="text-sm font-semibold text-gray-800 truncate px-1" title={emoji.name || "Emoji"}>
                       {emoji.name || "Emoji"}
                     </p>
-                    
+
                     <p className="text-[11px] text-gray-500 mt-0.5">
                       {formatDate(emoji.createdAt)}
                     </p>
@@ -411,11 +409,10 @@ const Emojis = () => {
                       )}
                       <button
                         onClick={() => handlePageChange(page)}
-                        className={`min-w-[34px] h-[34px] rounded-lg text-xs font-semibold transition ${
-                          currentPage === page
+                        className={`min-w-[34px] h-[34px] rounded-lg text-xs font-semibold transition ${currentPage === page
                             ? "bg-[#DE4B12] text-white shadow"
                             : "border border-gray-200 text-gray-700 hover:bg-orange-50 hover:border-[#DE4B12] hover:text-[#DE4B12]"
-                        }`}
+                          }`}
                       >
                         {page}
                       </button>
@@ -486,13 +483,12 @@ const Emojis = () => {
                   onDragLeave={handleDragLeave}
                   onDrop={handleDrop}
                   onClick={() => fileInputRef.current?.click()}
-                  className={`border-2 border-dashed rounded-2xl p-6 text-center cursor-pointer transition-all duration-200 flex flex-col items-center justify-center ${
-                    isDragging
+                  className={`border-2 border-dashed rounded-2xl p-6 text-center cursor-pointer transition-all duration-200 flex flex-col items-center justify-center ${isDragging
                       ? "border-[#DE4B12] bg-orange-50/50 scale-[1.01]"
                       : imagePreview
-                      ? "border-green-300 bg-green-50/20"
-                      : "border-gray-300 hover:border-[#DE4B12] hover:bg-orange-50/30"
-                  }`}
+                        ? "border-green-300 bg-green-50/20"
+                        : "border-gray-300 hover:border-[#DE4B12] hover:bg-orange-50/30"
+                    }`}
                 >
                   <input
                     type="file"
@@ -574,11 +570,10 @@ const Emojis = () => {
                 type="button"
                 onClick={handleUploadEmoji}
                 disabled={!emojiName.trim() || !selectedFile || isUploading}
-                className={`px-5 py-2 text-sm font-medium text-white rounded-xl transition flex items-center gap-2 ${
-                  !emojiName.trim() || !selectedFile || isUploading
+                className={`px-5 py-2 text-sm font-medium text-white rounded-xl transition flex items-center gap-2 ${!emojiName.trim() || !selectedFile || isUploading
                     ? "bg-gray-300 cursor-not-allowed"
                     : "bg-[#DE4B12] hover:bg-orange-600 shadow"
-                }`}
+                  }`}
               >
                 {isUploading ? (
                   <>
@@ -691,14 +686,14 @@ const Emojis = () => {
                   </div>
                 )}
 
-              
+
 
                 <div className="p-3 bg-gray-50 rounded-xl border border-gray-100 flex justify-between items-center">
                   <span className="font-medium text-gray-500">Created At</span>
                   <span className="text-gray-800">{formatDate(viewingEmoji.createdAt)}</span>
                 </div>
 
-            
+
               </div>
             </div>
 
