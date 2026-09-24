@@ -1,17 +1,14 @@
-import { Blocks } from 'lucide-react';
-import { User } from 'lucide-react';
-import { Car } from 'lucide-react';
-import { UserPlus } from 'lucide-react';
-import { File } from 'lucide-react';
-import { Bell } from 'lucide-react';
-import { MessageSquareWarning } from 'lucide-react';
-import { Calendar } from 'lucide-react';
-import { House } from 'lucide-react';
-import { Gift } from 'lucide-react';
-import { BookOpen } from 'lucide-react';
-import { Layers2 } from 'lucide-react';
-import { BellPlus } from 'lucide-react';
-import { Smile } from 'lucide-react';
+import {
+  UserPlus,
+  File,
+  MessageSquareWarning,
+  House,
+  Gift,
+  BookOpen,
+  Layers2,
+  BellPlus,
+  Smile,
+} from 'lucide-react';
 
 
 
@@ -37,11 +34,11 @@ export const sidebarData = [
     icon: <BookOpen />,  // File icon fits posts/documents better than User
     link: "/app/pages",
   },
-  // {
-  //   title: "Reports",
-  //   icon: <MessageSquareWarning />,  // Warning icon works well for reports
-  //   link: "/app/reports",
-  // },
+  {
+    title: "Reports",
+    icon: <MessageSquareWarning />,
+    link: "/app/reports",
+  },
   // {
   //   title: "Push Notifications",
   //   icon: <Bell />,  // Bell is perfect for notifications

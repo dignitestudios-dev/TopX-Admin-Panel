@@ -15,8 +15,12 @@ const DummySidebar = () => {
         .replace(/^ +/, "")
         .replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
     });
+    const deviceId = localStorage.getItem("topx_deviceuniqueid");
     localStorage.clear();
     sessionStorage.clear();
+    if (deviceId) {
+      localStorage.setItem("topx_deviceuniqueid", deviceId);
+    }
     navigate("/auth/login");
   };
 
