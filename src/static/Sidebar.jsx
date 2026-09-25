@@ -18,11 +18,11 @@ export const sidebarData = [
     icon: <House />,  // Good choice for dashboard
     link: "/app/dashboard",
   },
-  {
-    title: "Posts Management",
-    icon: <File />,  // File icon fits posts/documents better than User
-    link: "/app/posts",
-  },
+  // {
+  //   title: "Posts Management",
+  //   icon: <File />,  // File icon fits posts/documents better than User
+  //   link: "/app/posts",
+  // },
  
   {
     title: "User Management",
@@ -30,7 +30,7 @@ export const sidebarData = [
     link: "/app/users",
   },
    {
-    title: "Page Management",
+    title: "Page & Post Management",
     icon: <BookOpen />,  // File icon fits posts/documents better than User
     link: "/app/pages",
   },
