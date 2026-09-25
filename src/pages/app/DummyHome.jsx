@@ -88,7 +88,7 @@ const DummyHome = () => {
       </div>
 
       {/* ANALYTICS CARDS */}
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
         {analyticsData.map((item, idx) => (
           <div
             key={idx}
