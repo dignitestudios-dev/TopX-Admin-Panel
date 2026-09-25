@@ -54,12 +54,12 @@ const DummyHome = () => {
         icon: <FaBuilding className="text-4xl text-[#DE4B12]" />,
         link: "/app/pages",
       },
-      {
-        title: "Active Posts",
-        value: analytics.activePosts,
-        icon: <FaClipboardList className="text-4xl text-[#DE4B12]" />,
-        link: "/app/posts",
-      },
+      // {
+      //   title: "Active Posts",
+      //   value: analytics.activePosts,
+      //   icon: <FaClipboardList className="text-4xl text-[#DE4B12]" />,
+      //   link: "/app/posts",
+      // },
       {
         title: "Reports",
         value: analytics.reports,
